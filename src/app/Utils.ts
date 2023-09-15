@@ -1,3 +1,3 @@
-export default (args: string) => {
-	return args.toUpperCase();
+export function toUpperCase(arg: string) {
+  return arg.toUpperCase();
 }

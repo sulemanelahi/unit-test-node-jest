@@ -1,4 +1,4 @@
-import toUpperCase from "../app/Utils";
+import { toUpperCase } from "../app/Utils";
 
 describe("Utils Test Suite", () => {
   it("should return uppercase characters", () => {
