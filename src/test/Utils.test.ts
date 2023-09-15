@@ -2,8 +2,11 @@ import toUpperCase from "../app/Utils";
 
 describe("Utils Test Suite", () => {
   it("should return uppercase characters", () => {
-    const result = toUpperCase("ABC");
+    const alphabets = "abc";
+    const expected = alphabets.toUpperCase();
 
-    expect(result).toEqual("ABC");
+    const result = toUpperCase(alphabets);
+
+    expect(result).toEqual(expected);
   });
 });
