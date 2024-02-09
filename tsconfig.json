@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+			"target": "es2017",
+			"types": ["node", "jest"],
+			"module": "commonjs",
+			"outDir": "./dist",
+			"strict": true,
+			"noImplicitAny": true,
+			"baseUrl": "./dependencies/nodejs/node_modules",
+			"typeRoots": ["dependencies/nodejs/node_modules/@types"],
+			"inlineSourceMap": true,
+			"skipLibCheck": true,
+			"forceConsistentCasingInFileNames": true
+	},
+	"include": ["src/**/*", "jest.config.ts"],
+	"exclude": ["dependencies", "**/*.spec.ts"]
+}
+
