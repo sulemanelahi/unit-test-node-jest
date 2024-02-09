@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+			"target": "es2017",
+			"module": "commonjs",
+			"types": ["node", "jest"],
+			"strict": true,
+			"noImplicitAny": true,
+			"baseUrl": "./../dependencies/nodejs/node_modules",
+			"typeRoots": ["../dependencies/nodejs/node_modules/@types"],
+			"esModuleInterop": true,
+			"skipLibCheck": true,
+			"forceConsistentCasingInFileNames": true
+	},
+	"include": ["**/**/*"]
+}
